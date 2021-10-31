@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'LakkiReddy';
+    src: url('/pages/game/assets/LakkiReddy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('/pages/game/assets/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-B';
+    src: url('/pages/game/assets/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/pages/game/assets/Lato-Regular.ttf');
+}
+
+
+#startContainer{
+  background-image: url('/pages/start/assets/disenoHome.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#imgRiver{
+  margin-top: 100px;
+  width: 275px;
+  height: 200px;
+}
+
+#signInButton{
+width: 131px;
+height: 50px;
+background: #004F97;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+background-position: center;
+font-family: 'Lato-B';
+font-size: 14px;
+color: #FFFFFF;
+}
+
+#signUpButton{
+margin-left: 20px;
+width: 131px;
+height: 50px;
+background: #004F97;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+background-position: center;
+font-family: 'Lato-B';
+font-size: 14px;
+color: #FFFFFF;
+}
+
+#buttons{
+  margin-top: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

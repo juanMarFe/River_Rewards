@@ -1,0 +1,544 @@
+#imgHome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#points{
+position: absolute;
+left: 77%;
+right: 31.18%;
+top: 4%;
+bottom: 17.5%;
+font-family: 'Trebuchet MS';
+font-style: normal;
+font-weight: 900;
+font-size: 23px;
+line-height: 28px;
+color: #DF9900;
+background-color: #FFFFFF;
+}
+
+#imgCoins{
+  position: absolute;
+  width: 28px;
+  height: 30px;
+  left: 88%;
+  top: 4%;
+}
+
+#imgRect{
+  position: absolute;
+  width: 86px;
+  height: 40px;
+  left: 75%;
+  top: 3%;
+}
+
+#imgRiver{
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  left: 33%;
+  top: 1%;
+}
+
+#label1{
+  position: absolute;
+  width: 338px;
+  height: 15px;
+  left: 5%;
+  top: 16%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#imgStar1{
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  left: 12%;
+  top: 16.8%;
+}
+
+#imgStar2{
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  left: 76%;
+  top: 16.8%;
+}
+
+#imgRectangle{
+  position: absolute;
+  width: 430px;
+  height: 70px;
+  left: -25%;
+  top: 27%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+#imgGarza{
+  position: absolute;
+  width: 56px;
+  height: 53.07px;
+  left: 3%;
+  top: 29%;
+}
+
+#PV15{
+  position: absolute;
+  left: 18%;
+  top: 29%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002661;
+}
+
+#uni1{
+  position: absolute;
+  left: 19%;
+  top: 32%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#exp1{
+  position: absolute;
+  left: 19%;
+  top: 34%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#imgCoin{
+  position: absolute;
+  left: 83%;
+  top: 29.5%;
+  height: 18px;
+  width: 18px;
+}
+
+#PV150{
+  position: absolute;
+  left:75%;
+  top: 29%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DF9900;
+}
+
+#getReward{
+  position: absolute;
+  left: 67%;
+  top: 33%;
+  height: 24px;
+  width: 79px;
+  background: #D92F27;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+/*REWARD 2*/
+#imgRectangle1{
+  position: absolute;
+  width: 430px;
+  height: 70px;
+  left: -25%;
+  top: 40%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+#imgClaro{
+  position: absolute;
+  width: 56px;
+  height: 53.07px;
+  left: 3%;
+  top: 42%;
+}
+
+#PV30{
+  position: absolute;
+  left: 18%;
+  top: 42%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002661;
+}
+
+#uni11{
+  position: absolute;
+  left: 18%;
+  top: 45%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#exp11{
+  position: absolute;
+  left: 18%;
+  top: 47%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#imgCoin1{
+  position: absolute;
+  left: 83%;
+  top: 42.5%;
+  height: 18px;
+  width: 18px;
+}
+
+#PV1501{
+  position: absolute;
+  left:75%;
+  top: 42%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DF9900;
+}
+
+#getReward1{
+  position: absolute;
+  left: 67%;
+  top: 46%;
+  height: 24px;
+  width: 79px;
+  background: #D92F27;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+/*REWARD 3*/
+#imgRectangle2{
+  position: absolute;
+  width: 430px;
+  height: 70px;
+  left: -25%;
+  top: 53%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+#imgWhale{
+  position: absolute;
+  width: 56px;
+  height: 53.07px;
+  left: 3%;
+  top: 55%;
+}
+
+#PV50{
+  position: absolute;
+  left: 18%;
+  top: 55%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002661;
+}
+
+#uni12{
+  position: absolute;
+  left: 18%;
+  top: 58%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#exp12{
+  position: absolute;
+  left: 18%;
+  top: 60%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#imgCoin2{
+  position: absolute;
+  left: 83%;
+  top: 55.5%;
+  height: 18px;
+  width: 18px;
+}
+
+#PV1502{
+  position: absolute;
+  left:75%;
+  top: 55%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DF9900;
+}
+
+#getReward2{
+  position: absolute;
+  left: 67%;
+  top: 59%;
+  height: 24px;
+  width: 79px;
+  background: #D92F27;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+/*REWARD 4*/
+#imgRectangle3{
+  position: absolute;
+  width: 430px;
+  height: 70px;
+  left: -25%;
+  top: 66%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+#imgGarza1{
+  position: absolute;
+  width: 56px;
+  height: 53.07px;
+  left: 3%;
+  top: 68%;
+}
+
+#PV40{
+  position: absolute;
+  left: 18%;
+  top: 68%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002661;
+}
+
+#uni13{
+  position: absolute;
+  left: 18%;
+  top: 71%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#exp13{
+  position: absolute;
+  left: 18%;
+  top: 73%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#imgCoin3{
+  position: absolute;
+  left: 83%;
+  top: 68.5%;
+  height: 18px;
+  width: 18px;
+}
+
+#PV1503{
+  position: absolute;
+  left:75%;
+  top: 68%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DF9900;
+}
+
+#getReward3{
+  position: absolute;
+  left: 67%;
+  top: 72%;
+  height: 24px;
+  width: 79px;
+  background: #D92F27;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+/*REWARD 4*/
+#imgRectangle4{
+  position: absolute;
+  width: 430px;
+  height: 70px;
+  left: -25%;
+  top: 79%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+#imgClaro1{
+  position: absolute;
+  width: 56px;
+  height: 53.07px;
+  left: 3%;
+  top: 81%;
+}
+
+#PV32{
+  position: absolute;
+  left: 18%;
+  top: 81%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002661;
+}
+
+#uni14{
+  position: absolute;
+  left: 18%;
+  top: 84%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#exp14{
+  position: absolute;
+  left: 18%;
+  top: 86%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#imgCoin4{
+  position: absolute;
+  left: 83%;
+  top: 81.5%;
+  height: 18px;
+  width: 18px;
+}
+
+#PV1504{
+  position: absolute;
+  left:75%;
+  top: 81%;
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DF9900;
+}
+
+#getReward4{
+  position: absolute;
+  left: 67%;
+  top: 85%;
+  height: 24px;
+  width: 79px;
+  background: #D92F27;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 22px;
+}

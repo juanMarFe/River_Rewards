@@ -1,0 +1,75 @@
+<image id="imgHome" src="/pages/start/assets/home.png"/>
+
+<image id="imgRiver" src="/pages/start/assets/river.png"/>
+
+<view id="rectangle"> 
+<image id="imgRect" src="/pages/profile/assets/rectangle.png"/>
+<label id="points">150</label>
+<image id="imgCoins" src="/pages/profile/assets/coins.png"/>
+</view>
+
+<!--TITLE -->
+
+<view>
+<image id="imgStar1" src="/pages/profile/assets/starsSilver.png"/>
+<label id="label1">Silver Rewards</label>
+<image id="imgStar2" src="/pages/profile/assets/starsSilver.png"/>  
+</view>
+
+<!--REWARDS -->
+
+<view>
+  <image id="imgRectangle" src="/pages/profile/assets/rectangle.png"/>
+  <image id="imgGarza" src="/pages/rewards/assets/garza.png"/>
+  <label id="PV15">15% OFF ON PUNTO VERDE</label>
+  <label id="uni1">Universidad de La Sabana</label>
+  <label id="exp1">Expiration Date: 10/11/2021</label>
+  <label id="PV150">150</label>
+  <image id="imgCoin" src="/pages/rewards/assets/moneda.png"/>
+  <button id="getReward"> GET REWARD </button>  
+</view>
+
+<view>
+  <image id="imgRectangle1" src="/pages/profile/assets/rectangle.png"/>
+  <image id="imgClaro" src="/pages/rewards/assets/claro.png"/>
+  <label id="PV30"> Additional 2GB in your Plan</label>
+  <label id="uni11">Universidad de La Sabana</label>
+  <label id="exp11">Expiration Date: 10/11/2021</label>
+  <label id="PV1501">300</label>
+  <image id="imgCoin1" src="/pages/rewards/assets/moneda.png"/>
+  <button id="getReward1"> GET REWARD </button>  
+</view>
+
+<view>
+  <image id="imgRectangle2" src="/pages/profile/assets/rectangle.png"/>
+  <image id="imgWhale" src="/pages/rewards/assets/whale.png"/>
+  <label id="PV50"> 100GB Cloud Storage</label>
+  <label id="uni12">Universidad de La Sabana</label>
+  <label id="exp12">Expiration Date: 10/12/2021</label>
+  <label id="PV1502">050</label>
+  <image id="imgCoin2" src="/pages/rewards/assets/moneda.png"/>
+  <button id="getReward2"> GET REWARD </button>  
+</view>
+
+<view>
+  <image id="imgRectangle3" src="/pages/profile/assets/rectangle.png"/>
+  <image id="imgGarza1" src="/pages/rewards/assets/garza.png"/>
+  <label id="PV40"> 10 ‘Horas Beca’ </label>
+  <label id="uni13">Universidad de La Sabana</label>
+  <label id="exp13">Expiration Date: 10/11/2021</label>
+  <label id="PV1503">400</label>
+  <image id="imgCoin3" src="/pages/rewards/assets/moneda.png"/>
+  <button id="getReward3"> GET REWARD </button>  
+</view>
+
+<view>
+  <image id="imgRectangle4" src="/pages/profile/assets/rectangle.png"/>
+    <image id="imgClaro1" src="/pages/rewards/assets/claro.png"/>
+     <label id="PV32"> 1 Month Free in HBO Max </label>
+  <label id="uni14">Universidad de La Sabana</label>
+  <label id="exp14">Expiration Date: 10/11/2021</label>
+  <label id="PV1504">325</label>
+  <image id="imgCoin4" src="/pages/rewards/assets/moneda.png"/>
+  <button id="getReward4"> GET REWARD </button>  
+</view>
+

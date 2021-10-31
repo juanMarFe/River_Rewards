@@ -1,0 +1,67 @@
+#container{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+#button-container{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#fondo{
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+
+@font-face {
+    font-family: 'LakkiReddy';
+    src: url('/pages/game/assets/LakkiReddy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('/pages/game/assets/Iceland-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-B';
+    src: url('/pages/game/assets/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/pages/game/assets/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('/pages/game/assets/Lato-Black.ttf');
+}
+
+#canvas{
+  z-index: 2;
+}
+
+
+#left{
+  width: 30%;
+  height: 50px;
+  color: white;
+}
+
+#shoot{
+  width: 30%;
+  height: 50px;
+  color: white;
+}
+
+#right{
+  width: 30%;
+  height: 50px;
+  color: white;
+}

@@ -1,0 +1,7 @@
+<view id= "startContainer"> 
+  <image id="imgRiver" src="/pages/start/assets/river-rewards.png"/>
+  <view id= "buttons">
+    <button id="signInButton" onTap= "signInPage">Sign In</button>
+    <button id="signUpButton" onTap="signUpPage">Sign Up</button>
+  </view>
+</view>

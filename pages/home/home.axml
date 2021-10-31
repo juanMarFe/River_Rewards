@@ -1,0 +1,42 @@
+<view id="homeContainer">
+  
+  <view id="header">
+    <image id="imgRiver" src="/pages/start/assets/river.png"/>
+
+    <view id="points"> 
+      <label id="number">{{coins}}</label>
+      <image id="imgCoins" src="/pages/home/assets/coins.png"/>
+    </view >
+  </view >
+
+
+  <view id="information">
+      <label id="hello">Hello</label>
+      <label id="name">{{username}}</label>
+      <view id="statusView">
+        <label id="status">Status: </label>
+        <label id="statusName">{{lvl}}</label>
+        <image id="star" src="{{imgE}}"/>  
+      </view>
+  </view>
+
+  <progress id= "progressBar" percent="{{percent}}" active-color="{{barCol}}" background-color="#FFFFFF" stroke-width="15"></progress>
+
+  <view id="messageView">
+    <label id="message">You are</label>
+    <label id="messageBold">{{away}} donations</label>
+    <label id="message">away from upgrading to {{nextL}}</label>
+  </view>
+
+  <view>
+    <button id="button" onTap="newPageGame">
+      <image id="icon" src="./assets/play.png"/>
+    </button>
+
+    <button id="button" onTap="newPageRewards">
+      <image id="icon" src="./assets/gift.png"/>
+    </button>
+    <button id="invisible" onTap="atualizarD">
+    </button>
+  </view>
+

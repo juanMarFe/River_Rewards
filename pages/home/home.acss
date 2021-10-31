@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'LakkiReddy';
+    src: url('/pages/game/assets/LakkiReddy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('/pages/game/assets/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-B';
+    src: url('/pages/game/assets/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/pages/game/assets/Lato-Regular.ttf');
+}
+
+#homeContainer{
+  background-image: url('/pages/start/assets/disenoHome.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#imgRiver{
+  width: 25%;
+  height: 100%;
+}
+
+#points{
+  width: 95px;
+  height: 48px;
+  background-image: url('/pages/home/assets/rectangle.png');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+}
+
+#number{
+font-family: 'Lato-B';
+font-size: 23px;
+color: #DF9900;
+}
+
+#imgCoins{
+  width: 28px;
+  height: 30px;
+}
+
+#information{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#hello{
+  font-family:'Lato-Black';
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+#name{
+  font-family: 'Lato';
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+#statusView{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#status{
+  font-family: 'Lato';
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#statusName{
+  font-family: 'Lato-Black';
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+#star{
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+#progressBar{
+  margin-top: 15px;
+  width: 80%;
+}
+
+#messageView{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+#message{
+  margin-left: 5px;
+  font-family: 'Lato';
+  font-size: 11px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+#messageBold{
+  margin-left: 5px;
+  font-family: 'Lato-Black';
+  font-size: 11px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+#invisible{
+height: 75px;
+width: 170px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+margin: 25px;
+border: 0px solid transparent;
+}
+
+#button{
+height: 75px;
+width: 170px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #004F97;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+background-image: url('/pages/profile/assets/next.png');
+font-family: 'Trebuchet MS';
+color: #FFFFFF;
+font-size: 16px;
+line-height: 55px;
+justify-content: center;
+margin: 25px;
+}
+
+#icon{
+  height: 35px;
+  width: 35px;
+}

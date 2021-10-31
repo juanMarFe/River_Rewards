@@ -1,0 +1,74 @@
+<!--Registration Form-->
+
+<view id="signUpContainer">
+  <image id="imgRiver" src="/pages/start/assets/river.png"/>
+
+  
+  <view id = "form_contenedor">
+    <text id="titSignIn">REGISTRATION</text>
+
+    <label id = "name">Full Name</label>
+    <view id="inputView">
+      <image id= 'icon' src="/pages/signUp/assets/name.png"/>
+      <input 
+        id="nameInput" 
+        placeholder="Write your full name here"
+        onInput="onFullNameChange"
+        value="{{fullName}}"
+      />
+    </view>
+    <label id = "username">Username</label>
+    <view id="inputView">
+      <image id= 'icon' src="/pages/signUp/assets/user.png"/>
+      <input 
+        id="usernameInput" 
+        placeholder="Write your username here"
+        onInput="onUsernameChange"
+        value="{{username}}"
+      />
+    </view>
+    
+    <label id = "email">E-Mail</label>
+    <view id="inputView">
+      <image id= 'icon' src="/pages/signUp/assets/envelope.png"/>
+      <input 
+        id="emailInput" 
+        placeholder="Write your e-mail here"
+        onInput="onEmailChange"
+        value="{{email}}"
+      />
+    </view>
+
+    <label id = "password">Password</label>
+    <view id="inputView">
+      <image id= 'icon' src="/pages/signUp/assets/lock.png"/>
+      <input 
+        password 
+        id="passwordInput" 
+        placeholder="Write your password here"
+        onInput="onPasswordChange"
+        value="{{password}}"
+      />
+    </view>
+    
+    <label id = "passwordConfirm">Confirm Password</label>
+    <view id="inputView">
+      <image id= 'icon' src="/pages/signUp/assets/lock.png"/>
+      <input
+        id="passwordConfirmInput" 
+        placeholder="Confirm your password here"
+        onInput="onConfirmPasswordChange"
+        value="{{confirmPassword}}"
+        password
+      />
+    </view>
+
+    <button id="signUp" onTap="signUp">Sign Up</button>  
+    
+    <button onTap="signInPage" id="signIn">You already have an account? <text id="signInText">Sign In</text></button>
+    
+    
+  </view>
+    
+    
+</view>

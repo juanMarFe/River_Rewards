@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'LakkiReddy';
+    src: url('/pages/game/assets/LakkiReddy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('/pages/game/assets/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/pages/game/assets/Lato-Regular.ttf');
+}
+
+#singInContainer{
+  background-image: url('/pages/start/assets/disenoHome.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#form_contenedor{
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.90);
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 65%;
+}
+
+#inputView{
+  border: 1px solid #004F97;
+  font-size: 12px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+input{
+  font-size: 12px;
+  width: 85%;
+}
+
+#imgHome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#imgRiver{
+  width: 28%;
+  height: 10%;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+#icon{
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+label{
+  margin-top: 5px;
+  font-family: 'Lato-Black';
+  color: #004F97;
+  font-size: 12px;
+}
+
+/* SIGN UP */
+#titSignIn{
+width: 100%;
+font-size: 30px;
+line-height: 42px;
+text-align: center;
+color: #004F97;
+font-family: 'LakkiReddy';
+}
+
+
+#signIn{
+width: 101%;
+background: #004F97;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+font-family: 'Lato-Black';
+color: #FFFFFF;
+font-size: 13px;
+padding: 0px;
+margin-top: 15px;
+}
+
+#signUp{
+width: 100%;
+font-family: 'Lato';
+font-size: 11px;
+text-align: center;
+border: 0px;
+background-color: transparent;
+}
+
+#signUpText{
+  margin-left: 5px;
+  font-family: 'Lato-Black';
+  font-size: 11px;
+  text-decoration: underline;
+}
+
