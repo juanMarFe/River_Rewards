@@ -70,19 +70,41 @@ Page({
     let tempsa=JSON.stringify(query.ImageE);
 
     routea = tempsa.slice(1, tempsa.length - 1);
-  },
-
-   getLocation(){
+    
     my.getLocation({
       success(res) {
         my.hideLoading();
-        console.log(res)
+        location = res;
       },
       fail() {
         my.hideLoading();
         my.alert({ title: 'location failed' });
       },
     })
+  },
+
+  calculateDistance(){
+    this.setData({
+      latitude: location.latitude,
+      longitude: location.longitude,
+    });
+
+    let radianes = (Math.PI / 180);
+    let latitudeDifference = (this.data.sabanaCenterLatitude - this.data.latitude) * radianes;
+    let longitudeDifference = (this.data.sabanaCenterLongitude - this.data.longitude) * radianes;
+    let a = Math.pow(Math.sin(latitudeDifference/2),2) + Math.cos(this.data.latitude * radianes) * Math.cos(this.data.sabanaCenterLatitude * radianes) * Math.pow(Math.sin(longitudeDifference/2),2);
+    let distance = 2 * Math.asin(Math.sqrt(a)) * 6378.10;
+    console.log(distance);
+
+    this.setData({
+      distance: distance,
+    });
+
+    if(distance<0.35){
+      this.setData({
+        range: true,
+      })
+    }
   },
   
   getServerTime(){
@@ -129,6 +151,11 @@ Page({
     route: "",
     hour: 0,
     mode: 'light',
+    sabanaCenterLatitude: 4.861071442552901,
+    sabanaCenterLongitude: -74.03326166539271,
+    range: false,
+    distance: 0,
+
   },
 
   reset() {
