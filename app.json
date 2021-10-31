@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/game/game",
+    "pages/home/home",
+    "pages/signUp/signUp",
+    "pages/signIn/signIn",
+    "pages/rewards/rewards"
+
+  ],
+  "window": {
+    "defaultTitle": "River Rewards"
+  }
+}
